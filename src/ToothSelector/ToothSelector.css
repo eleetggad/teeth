@@ -1,0 +1,10 @@
+.st0{
+    fill:#FFFFFF;
+}
+polygon {
+    opacity: 0.2;
+}
+polygon.active{
+    opacity: 0.2;
+    fill:red!important;
+}

@@ -1,0 +1,47 @@
+.ant-select-selection-item {
+  text-transform: capitalize;
+}
+.card__wrapper {
+  max-width: 600px;
+  display: flex;
+  background: white;
+  padding: 10px;
+  margin: 30px auto 0;
+  border-radius: 4px;
+  box-shadow: 1px 2px 3px 0px #cfcece, 1px 0px 6px 1px #cfcece, 1px 2px 3px 0px #cfcece;
+}
+.card__content__container,
+.selector__container {
+  width: 100%;
+}
+.card__wrapper .ant-form-item {
+  margin-bottom: 12px;
+}
+.card__title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.schema__wrapper {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #39a0ea;
+  font-weight: 500;
+  font-style: italic;
+}
+.contentTooth{
+  min-width: 360px;
+  width: 800px;
+  max-width: 100%;
+}
+.scheme__wrapper {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px){
+  .contentTooth{
+    min-width: 325px;
+    width: 100%;
+    max-width: 100%;
+  }
+}
